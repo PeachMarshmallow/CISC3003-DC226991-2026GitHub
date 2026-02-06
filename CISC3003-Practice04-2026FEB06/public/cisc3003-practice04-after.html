@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CISC3003 Practice04 After</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/cisc3003-practice04.css">
+</head>
+<body>
+  <header>
+    <h1>Share Your Travels</h1>
+    <p>Let us know where you've been</p>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <section>
+        <fieldset>
+          <legend>Photo Information</legend>
+          <p>
+            <label for="title">Title:</label><br/>
+            <input type="text" id="title" name="title" placeholder="Give your photo a descriptive name">
+          </p>
+          <p>
+            <label for="description">Description:</label><br/>
+            <textarea id="description" name="description" rows="5" cols="61" placeholder="Adding a rich description will help with search results"></textarea>
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <legend>Location</legend>
+          <p>
+            <label for="continent">Continent:</label><br/>
+            <select id="continent" name="continent">
+              <option>Africa</option>
+              <option>Asia</option>
+              <option>Europe</option>
+              <option>North America</option>
+              <option>South America</option>
+            </select>
+          </p>
+          <p>
+            <label for="country">Country:</label><br/>
+            <select id="country" name="country">
+              <option>Canada</option>
+              <option>Mexico</option>
+              <option>United States</option>
+            </select>
+          </p>
+          <p>
+            <label for="city">City:</label><br/>
+            <select id="city" name="city">
+              <option>Calgary</option>
+              <option>Montreal</option>
+              <option>Toronto</option>
+              <option>Vancouver</option>
+            </select>
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <legend>Copyright</legend>
+          <p>
+            <input type="radio" name="copyright" value="reserved"> All rights reserved
+            <input type="radio" name="copyright" value="cc"> Creative Commons
+          </p>
+          <p>
+            <input type="checkbox" name="cc[]" value="1"> Attribution <br/>
+            <input type="checkbox" name="cc[]" value="2"> Non-commercial <br/>
+            <input type="checkbox" name="cc[]" value="3"> No Derivatives <br/>
+          </p>
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <legend>Details</legend>
+          <p>
+            <label for="rate">Rating:</label><br/>
+            <input type="number" id="rate" name="rate" min="1" max="5">
+          </p>
+          <p>
+            <label for="color">Color Palette:</label><br/>
+            <input type="color" id="color" name="color">
+          </p>
+          <p>
+            <label for="date">Date Taken：</label><br/>
+            <input type="date" id="date" name="date">
+          </p>
+          <p>
+            <label for="time">Time Taken：</label><br/>
+            <input type="time" id="time" name="time">
+          </p>
+        </fieldset>
+      </section>
+
+      <section style="text-align:center;">
+        <input type="submit" value="Submit" class="rounded">
+        <input type="reset" value="Clear Form" class="rounded">
+      </section>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CISC3003 Practice04</p>
+  </footer>
+</body>
+</html>
