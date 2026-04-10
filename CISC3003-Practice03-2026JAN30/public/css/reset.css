@@ -1,0 +1,120 @@
+/* 全局背景与字体设置 */
+body {
+  background-color: #E8EAF6;
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 标题字体设置 */
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* 顶部导航栏 */
+header {
+  background-color: #1A237E;
+  color: white;
+  padding: 10px 20px;
+}
+
+header img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #00B0FF;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #F50057;
+  color: white;
+  border-radius: 4px;
+}
+
+/* section 标题背景 */
+section h3 {
+  background-color: #3F51B5;
+  color: white;
+  padding: 8px;
+}
+
+/* 图片说明文字背景 */
+figcaption {
+  background-color: #C5CAE9;
+  padding: 5px;
+  font-style: italic;
+}
+
+/* 相关图片区域 */
+.related-photos {
+  background-color: #7986CB;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.related-photos img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* 图标区域 */
+.icons img {
+  margin: 5px;
+  vertical-align: middle;
+}
+
+/* 评论区域 */
+.review-icon {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#reviews b {
+  color: #FF80AB;
+}
+
+/* 页脚链接 */
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #00B0FF;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  background-color: #F50057;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* 页脚版权 */
+footer {
+  background-color: #C5CAE9;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
