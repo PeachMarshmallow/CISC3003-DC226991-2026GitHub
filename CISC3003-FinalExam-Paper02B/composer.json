@@ -1,0 +1,12 @@
+{
+    "name": "19258/cisc3003-final-exam-paper02b",
+    "authors": [
+        {
+            "name": "PeachMarshmallow",
+            "email": "tan13690340849@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
+}
